@@ -1,0 +1,35 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.mouseWheelZoom": true,
+    "git.ignoreMissingGitWarning": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    //     "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "editor.letterSpacing": 0.4,
+    "editor.lineHeight": 1.5,
+    "cSpell.language": "en,en-US,en-GB,pt-PT,pt",
+    "security.workspace.trust.untrustedFiles": "open",
+    "[latex]": {
+        "editor.formatOnSave": false
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.enabled": true,
+    "workbench.colorCustomizations": {
+        "[Vesper]": {
+            "editorInlayHint.background": "#111111",
+            "editorInlayHint.foreground": "#3e3e3e",
+            "terminal.ansiBlue": "#1a1a1a",
+            "terminal.ansiYellow": "#FFC799"
+        }
+    },
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Vesper",
+    "window.zoomLevel": 1
+}

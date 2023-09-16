@@ -1,0 +1,14 @@
+configuration {
+  font: "Roboto Medium 14";
+  show-icons: true;
+}
+
+@theme "/dev/null"
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;  
+}
+

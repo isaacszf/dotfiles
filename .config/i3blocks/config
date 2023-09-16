@@ -1,0 +1,29 @@
+command=$SCRIPT_DIR/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+[cpu_usage]
+label=CPU  
+interval=10
+command=$SCRIPT_DIR/cpu_usage/cpu_usage
+min_width=CPU 70.00%
+separator=true
+
+[temperature]
+label=
+command=$SCRIPT_DIR/temperature/temperature
+interval=10
+
+[memory]
+label=
+separator=true
+command=$SCRIPT_DIR/memory/memory
+interval=30
+
+[load_average]
+label=LOAD
+interval=10
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=5

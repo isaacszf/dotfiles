@@ -1,0 +1,78 @@
+configuration {
+  display-drun: " ";
+  font: "Roboto Medium 14";
+  show-icons: true;
+}
+
+@theme "/dev/null"
+
+* {
+  bg: #141414;
+  bg-selected: #292929;
+  input-bar-border: #1a1a1a;
+  text-color: #f5f5f5;
+  placeholder-color: #292929;
+    
+  background-color: @bg;
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+  spacing: 0;  
+}
+
+window {
+  width: 35%;
+
+  padding: 5px;
+
+  border: 2px;
+  border-color: #292929;
+  border-radius: 20px;
+
+  x-offset: -25px;
+  y-offset: -80px;
+}
+
+inputbar {
+  padding: 18px;
+
+  border: 0 0 1px 0;
+  border-color: @input-bar-border;
+}
+
+entry {
+  placeholder: "Search for Applications";
+  placeholder-color: @placeholder-color;
+
+  color: @text-color;
+}
+
+element {
+  padding: 11px;
+
+  color: @text-color;
+}
+
+element selected {
+  background-color: @bg-selected;
+
+  border-radius: 10px;
+}
+
+element-text selected, element-icon selected {
+  background-color: @bg-selected;
+}
+
+element-text {
+  margin: 0 0 0 12px;
+}
+
+element-icon {
+  size: 25px;
+}
+
+listview {
+  padding: 10px;
+  lines: 8;
+}
